@@ -28,7 +28,8 @@ GEM
       nanoc (>= 3.6.3)
     haml (4.0.3)
       tilt
-    kramdown (1.1.0)
+    kramdown (2.3.0)
+      rexml
     listen (1.2.3)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
@@ -56,6 +57,7 @@ GEM
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
     redcarpet (3.0.0)
+    rexml (3.2.4)
     sass (3.2.10)
     slop (3.4.6)
     susy (1.0.9)
